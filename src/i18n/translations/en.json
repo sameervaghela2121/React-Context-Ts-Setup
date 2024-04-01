@@ -1,0 +1,19 @@
+{
+	"home": {
+		"title": "Home",
+		"heading": "Hello, Welcome to React js boilerplate"
+	},
+	"about": {
+		"title": "About",
+		"heading": "This is the About us page",
+		"sub-heading": "This is the About us page"
+	},
+	"secured-page": {
+		"title": "Secured Page",
+		"heading": "This is a secured page"
+	},
+	"unAuthorized-access": {
+		"title": "UnAuthorized Access",
+		"heading": "Please login first"
+	}
+}
