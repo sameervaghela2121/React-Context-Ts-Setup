@@ -57,7 +57,7 @@ npm start
 # or
 yarn start
 
-Creating a Context
+### Creating a Context
 To create a new context, follow the pattern shown in the src/context directory. Define your state, actions, and reducer in a TypeScript file, and use the provided utility functions to create and provide the context.
 
 Example:
@@ -102,7 +102,7 @@ const useExampleContext = () => {
 
 export { ExampleProvider, useExampleContext };
 
-Using the Context in Components
+### Using the Context in Components
 Wrap your application with the context provider in src/index.tsx or wherever you initialize your app.
 
 import React from 'react';
@@ -117,7 +117,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-Use the context in your components:
+### Use the context in your components:
 
 import React from 'react';
 import { useExampleContext } from './context/ExampleContext';
@@ -132,7 +132,7 @@ const ExampleComponent: React.FC = () => {
 export default ExampleComponent;
 
 
-Folder Structure
+### Folder Structure
 Here's a brief overview of the folder structure in this repository:
 
 src/
